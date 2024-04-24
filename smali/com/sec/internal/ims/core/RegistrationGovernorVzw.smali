@@ -739,7 +739,7 @@
     const-string/jumbo p0, "ro.ril.svlte1x"
 
     .line 1209
-    invoke-static {p0}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -2196,7 +2196,7 @@
     const/4 v4, 0x0
 
     .line 779
-    invoke-static {v3, v4}, Landroid/os/SemSystemProperties;->getInt(Ljava/lang/String;I)I
+    invoke-static {v3, v4}, Landroid/os/SystemProperties;->getInt(Ljava/lang/String;I)I
 
     move-result v3
 
@@ -2234,7 +2234,7 @@
 
     const-string/jumbo v3, "ro.product.first_api_level"
 
-    invoke-static {v3, v4}, Landroid/os/SemSystemProperties;->getInt(Ljava/lang/String;I)I
+    invoke-static {v3, v4}, Landroid/os/SystemProperties;->getInt(Ljava/lang/String;I)I
 
     move-result v3
 
