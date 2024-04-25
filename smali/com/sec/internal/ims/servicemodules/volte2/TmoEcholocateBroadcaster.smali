@@ -624,7 +624,7 @@
     .line 361
     iget-object p0, p0, Lcom/sec/internal/ims/servicemodules/volte2/TmoEcholocateBroadcaster;->mContext:Landroid/content/Context;
 
-    sget-object p1, Landroid/os/UserHandle;->SEM_CURRENT:Landroid/os/UserHandle;
+    sget-object p1, Landroid/os/UserHandle;->CURRENT:Landroid/os/UserHandle;
 
     const-string p2, "diagandroid.phone.receiveDetailedCallState"
 
